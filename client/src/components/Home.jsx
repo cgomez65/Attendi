@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import Buttons from './Buttons'
+import Main from './Main'
+
 
 
 class Home extends Component{
   render(){
     return(
-      <div className="container">
-        <div id="home" className="flex-center flex-column">
-          <h1>Quick Quiz!</h1>
-          <Buttons />
+      <div className = 'home'>
+        <div >
+          <h1>Welcome</h1> 
+          <h2>take a part in our Survey</h2>
+          <br />
+          <br />
+          <Main />
         </div>
       </div>
     )
